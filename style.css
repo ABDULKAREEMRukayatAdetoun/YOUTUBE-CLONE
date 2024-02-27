@@ -1,0 +1,100 @@
+@import url('https://googleapis.com/css2?faily=Roboto:wght@300;400;700&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'roboto', sans-serif;
+}
+.header {
+display:flex;
+justify-content: space-between;
+align-items: center;
+height: 60px;
+padding: 15px;
+
+
+
+
+}
+main {
+height: calc(100vh - 70px);
+display: flex;
+background-color: #ddd;
+
+}
+
+.side-bar{
+    height: 100%;
+    width: 20%;
+    background-color: white;
+   
+}
+@media(max-width 768px) {.sidebar{
+    display: none;
+}}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+.left #menu{padding: 0 7px;
+    cursor: pointer;
+}
+.center{width: ;
+
+
+}
+
+.search{
+    display: flex;
+}
+.search form{
+    display: flex;
+    border: 1px solid #ddd;
+    height: 45px;
+    
+}
+.search input{
+    width: 600px;
+    padding: 10px;
+    border: 0;
+    height: 100%;
+    border-radius: 2px 0 0 2px;
+}
+input:focus{
+    outline: none;
+    border: 1px solid #ddd;
+}
+.search button{
+    height: 100%;
+    width:60px;
+    border: none;
+}
+.mic{
+    margin-top: 15px;
+    width: 12px;
+    height: 12px;
+}
+
+
+.youtube-fill{
+    height: 12px;
+    width: 12px;
+}
+.menu-line{
+    height: 12px;
+    width: 12px;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.Home button{
+width: 17%;
+}
